@@ -13,4 +13,5 @@ var (
 	ErrEncodeSizeOverflow = errors.New("encoded size out of valid range")
 	ErrBchEncodePadding   = errors.New("encoding padding error")
 	ErrEthNetID           = errors.New("error eth net id")
+	ErrUnknownChainCode   = errors.New("unknown chain code")
 )
