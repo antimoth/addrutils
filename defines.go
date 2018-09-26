@@ -14,4 +14,5 @@ var (
 	ErrBchEncodePadding   = errors.New("encoding padding error")
 	ErrEthNetID           = errors.New("error eth net id")
 	ErrUnknownChainCode   = errors.New("unknown chain code")
+	ErrUnknownNetID       = errors.New("unknown netID")
 )
