@@ -1,4 +1,4 @@
-package swaputils
+package addrutils
 
 import (
 	"crypto/sha256"

@@ -1,11 +1,11 @@
-package swaputils
+package addrutils
 
 import (
 	"errors"
 	"github.com/antimoth/logger"
 )
 
-var utilLogger = logger.NewLogger("INFO", "swaputils")
+var utilLogger = logger.NewLogger("INFO", "addrutils")
 
 var (
 	ErrHash160Size        = errors.New("decoded address is of unknown size")

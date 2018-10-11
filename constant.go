@@ -1,4 +1,4 @@
-package swaputils
+package addrutils
 
 const (
 	BCH_ERROR_NET_ID         uint8 = 0xff
